@@ -22,6 +22,12 @@ public class ShoppingActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent ordersIntent=new Intent(ShoppingActivity.this,Webgochat.class);
+                ordersIntent.putExtra("GMID", "YWU2YzYwMGU4");
+                ordersIntent.putExtra("name","Faisal Ali");
+                ordersIntent.putExtra("email","faisalazmee1@gmail.com");
+                ordersIntent.putExtra("code","91");
+                ordersIntent.putExtra("phone","9833173457");
+                ordersIntent.putExtra("type","9833173457");
                 startActivity(ordersIntent);
             }
         });
