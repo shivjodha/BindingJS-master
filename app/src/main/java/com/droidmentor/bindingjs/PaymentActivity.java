@@ -35,8 +35,10 @@ public class PaymentActivity extends AppCompatActivity {
         progressUtils = new ProgressUtils(this);
 
         webView = (WebView) findViewById(R.id.webView);
-        embed_link = "http://droidmentor-app-callback.surge.sh/";
-        //embed_link = "http://192.168.1.113/projects/faisal/test/chat.html";
+       //embed_link = "http://droidmentor-app-callback.surge.sh/";
+       // embed_link = "http://192.168.1.113/projects/faisal/test/chat.html";
+       // embed_link = "http://192.168.1.113/projects/gochatin.com/dashboard1/login";
+        embed_link = "http://192.168.1.113/projects/faisal/test/widget.php?GMID%3DYWU2YzYwMGU4%26name%3DFaisal+Ali%26email%3Dfaisalazmee1%40gmail.com%26code%3D91%26phone%3D9833173457%26type%3D9833173457";
         if (TextUtils.isEmpty(embed_link))
             onBackPressed();
 

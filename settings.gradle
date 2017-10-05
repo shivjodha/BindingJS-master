@@ -1,1 +1,1 @@
-include ':app', ':labgochat'
+include ':app', ':labgochat', ':labgochat-debug'
